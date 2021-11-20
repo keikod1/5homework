@@ -21,21 +21,12 @@ var search = true
 
 for (key, value) in numbers{
     if (Int(searchNumbers!) ?? 0) == key{
-        search = true
+        search == true
         print( "звонок от: \(value)" )
         break
     }else{
-        search = false
-    
-    }
-}
-
-
-var serch2 = true
-
-while serch2{
-    if search == false{
+        search == false
         print("звонок от: \(searchNumbers!)")
-        break
     }
 }
+
